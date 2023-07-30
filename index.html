@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="style.css" />
+<title>Picasso.tn</title>
+</head>
+<body>
+    <header>
+    <div id="message"></div>
+    <br>
+    <canvas id="canvas" width="800%" height="500%"></canvas>
+    <div class="toolbox">
+        <button id="decrease">-</button>
+        <span id="size">10</span>
+        <button id="increase">+</button>
+        <input type="color" id="color">
+        <button id="clear">X</button>
+        <button type="button" id="save">Save</button>
+    </div>
+    </header>
+    <h1>Saved :</h1>
+    <footer>
+        <p id="display">
+             <!-- Saved drawings will display here--> 
+        </p>
+    </footer>
+    <footer>
+        <button id="deleteAll">Delete all</button>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
